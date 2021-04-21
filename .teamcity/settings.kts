@@ -50,3 +50,7 @@ object BuildTest : BuildType({
 object Testtwo : BuildType({
     name = "testtwotee"
 })
+
+object TestthreeFine : BuildType({
+    name = "testworkit"
+})
