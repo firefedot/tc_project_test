@@ -29,6 +29,7 @@ project {
 
     buildType(BuildTest)
     buildType(Testtwo)
+    buildType(TestthreeFine)
 }
 
 object BuildTest : BuildType({
