@@ -28,6 +28,7 @@ version = "2020.2"
 project {
 
     buildType(BuildTest)
+    buildType(Testtwo)
 }
 
 object BuildTest : BuildType({
@@ -44,4 +45,8 @@ object BuildTest : BuildType({
             """.trimIndent()
         }
     }
+})
+
+object Testtwo : BuildType({
+    name = "testtwo"
 })
