@@ -48,5 +48,5 @@ object BuildTest : BuildType({
 })
 
 object Testtwo : BuildType({
-    name = "testtwo"
+    name = "testtwotee"
 })
