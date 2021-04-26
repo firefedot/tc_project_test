@@ -11,6 +11,9 @@ accordingly, and delete the patch script.
 changeBuildType(RelativeId("BuildTest")) {
     params {
         add {
+            password("secretPAram", "credentialsJSON:485166ba-6bb0-4a15-bb35-2c0ea231858c", label = "secretLabel", description = "SecretDesc", display = ParameterDisplay.HIDDEN, readOnly = true)
+        }
+        add {
             param("super_param", "testValue")
         }
     }
